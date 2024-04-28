@@ -1,0 +1,23 @@
+$lsblk
+#/dev/sdX
+
+#Image von der SD-Karte auf das NAS kopieren
+
+$dd if=/dev/sdX of=/home/omv/pihole.img status=progress
+
+#Script zum shrinken des Images downloaden, vorbereiten und ausführen
+
+$wget https://raw.githubusercontent.com/Drewsif/PiShrink/master/pishrink.sh
+
+$chmod +x pishrink.sh
+
+$./pishrink.sh pihole-dhcp.img
+
+# reduziertes Image wieder auf eine neue SD-Karte kopieren
+
+$dd if=/home/omv/pihole-15.img of=/dev/sdX status=progress
+
+#Neu beschriebene SD-Karte im Raspi testen
+
+#Quelle: https://www.tomshardware.com/how-to/back-up-raspberry-pi-as-disk-image
+
