@@ -11,7 +11,8 @@ Diese Taktiken, Techniken und Verfahren (TTPs) spielen bei modernen Cyberangriff
 ## Wie die Sicherheit auf DNS-Ebene hilft, Cyberangriffe zu stoppen:
 Da alle Internet-Aktivitäten durch DNS ermöglicht werden, kann die Überwachung von DNS-Anfragen - sowie der darauffolgenden IP-Verbindungen - einen großen Beitrag zur Sicherung Deines Netzwerks leisten. Die Einrichtung von Sicherheitsprotokollen zur Erkennung anomaler DNS-Aktivitäten kann eine bessere Genauigkeit und Erkennung bösartiger Aktivitäten und kompromittierter Systeme ermöglichen, die Sicherheitstransparenz verbessern und den Netzwerkschutz erhöhen. Hierzu bietet suricata die detection von Netzwerkprotokoll Anomalien. Im IPS mode werden Attacken gleich gestoppt. DNS Filtering mittels Pi-hole Blocklisten und DNSSEC Validierung verhindert die Kontaktierung zu kompromittierten Seiten und Malvertising oder zur Malware und Botnet Infrastruktur. Nichts stoppt Angriffe früher als die Sicherheit der DNS-Schicht. Schließlich ist DNS der erste Schritt bei der Herstellung einer Verbindung im Internet. Wenn eine gefährliche Verbindung auf der DNS-Ebene blockiert wird, endet der Angriff dort.
 
-￼![Malware and botnet](https://github.com/okawango-oss/DNS-security-layer/assets/125760839/3f36701e-1dfc-41c7-a087-aaec000c1bd8)
+￼![image](https://github.com/okawango-oss/DNS-layer-security/assets/125760839/ccc6fcb2-f29f-40ca-89b9-a98a9a91e85a)
+
 
 Abbildung 1: Die blauen Schilder zeigen, wo die DNS-Sicherheitsschicht die Kommunikation von Angreifern stoppt.
 
