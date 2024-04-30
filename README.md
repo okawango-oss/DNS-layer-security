@@ -114,7 +114,7 @@ Hinweis: Das Dollarzeichen ($) bedeutet: als root den Befehl eingeben und mit Re
    Terminal/Putty:
   - $dig @localhost doubleclick.net #darf keine ip-adress anzeigen, stattdessen 0.0.0.0
   - $delv +dnssec +rtrace netdata.cloud # hier sollte "fully validated" erscheinen
-  - $dig +dnssec go-unsigned-ipv4.dnscheck.tools
+  - $dig +dnssec go-unsigned-ipv4.dnscheck.tools # rfc6840 konformer DNSSEC-downgrade kann ausgenutzt werden, deshalb werden DNS Filter per Pi-hole eingesetzt
   - $dig +dnssec nosig.go-ipv4.dnscheck.tools # ANSWER: 0
   - $dig +dnssec badsig.go-ipv4.dnscheck.tools # ANSWER: 0
   - $dig +dnssec expiredsig.go-ipv4.dnscheck.tools # ANSWER: 0
