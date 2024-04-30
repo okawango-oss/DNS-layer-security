@@ -32,6 +32,7 @@ Für systemd-resolved ist DNSSEC aktiviert worden. Da DNSSEC zeitkritisch ist, h
   - https://techblog.nexxwave.eu/public-dns-malware-filters-tested-in-2024/
   - https://avm.de/service/wissensdatenbank/dok/FRITZ-Box-6690-Cable/3757_Lokales-DNSSEC-uber-FRITZ-Box-nicht-nutzbar/
   - https://www.heise.de/hintergrund/Admin-Know-how-Das-Domain-Name-System-erklaert-9592007.html?nid=aY9ad4Us
+  - https://www.kuketz-blog.de/tracking-wettruesten-das-cname-cloaking/
   - https://attack.mitre.org/techniques/T1071/004/
 
 ### Hardwarevoraussetzungen: 
