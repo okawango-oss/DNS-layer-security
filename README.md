@@ -83,10 +83,10 @@ Hinweis: Das Dollarzeichen ($) bedeutet: als root den Befehl eingeben und mit Re
     Kontrolle durch Statusangabe P (=OK)
 - $passwd -aS | grep P		# passwd -aS | grep P eingeben
   -    root P 									# wurde schon per dietpi-launcher geändert, falls nicht bitte nachholen
-  -    dietpi P 								# sollte jetzt geändert werden
+  -    dietpi P 								# wurde schon per dietpi-launcher geändert, falls nicht bitte nachholen
   -    omv P 								    # sollte jetzt geändert werden
 
-- root@pi-hole:~$passwd dietpi	# passwd dietpi eingeben
+- root@pi-hole:~$passwd dietpi	# passwd dietpi eingeben, ggf. überspringen wenn es schon neu gesetzt wurde
 - New password: 						    # neues Passwort für den Benutzer dietpi eingeben + Return drücken
 - Retype new password:			  	# neues Passwort wiederholen + Return drücken
 - neues Passwort notieren
