@@ -44,7 +44,7 @@ Für systemd-resolved ist DNSSEC aktiviert worden. Da DNSSEC zeitkritisch ist, h
 
   - shasum -a 512 pihole-dhcp.img:
     
-    f29f93dfccbaaaee9df4c12
+    01ad216afe18165b99a8360555967b737205cc48a97c5c8921cb058db8c9da471116e09b8d232ca40bf440ef1cdf8d83b9a0fa427f29f93dfccbaaaee9df4c12
 
 ### Empfehlung:
   - SD-Karte vorher prüfen. https://www.maketecheasier.com/check-sd-card-speed-capacity/#fake-flash-test
