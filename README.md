@@ -42,9 +42,9 @@ Für systemd-resolved ist DNSSEC aktiviert worden. Da DNSSEC zeitkritisch ist, h
 ### Download des Images pihole-dhcp.img ca. 3,5 GB
   - pihole-dhcp.img https://1drv.ms/f/s!AkAr4GI6DPy8bU7_Na-vQclJckY?e=4MwRjB onedrive location
 
-  - sha256sum:
+  - shasum -a 512 pihole-dhcp.img:
     
-    30d31640e5b8b12ab5ca49bb9f0257d010022f993d8c0ed2938c175f248abb4c
+    f29f93dfccbaaaee9df4c12
 
 ### Empfehlung:
   - SD-Karte vorher prüfen. https://www.maketecheasier.com/check-sd-card-speed-capacity/#fake-flash-test
