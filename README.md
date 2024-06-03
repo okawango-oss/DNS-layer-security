@@ -40,7 +40,7 @@ Für systemd-resolved ist DNSSEC aktiviert worden. Da DNSSEC zeitkritisch ist, h
   - SANDISK Extreme PRO® UHS-I, Micro-SDXC, 32 GB
 
 ### Download des Images pihole-dhcp.img ca. 3,5 GB
-  - pihole-dhcp.img https://1drv.ms/f/s!AkAr4GI6DPy8bU7_Na-vQclJckY?e=4MwRjB onedrive location
+  - pihole-dhcp.img https://1drv.ms/f/s!AkAr4GI6DPy8bU7_Na-vQclJckY?e=4MwRjB onedrive location in einem neuen Tab öffnen, falls eine Anmelde Aufforderung erscheint.
 
   - shasum -a 512 pihole-dhcp.img:
     
